@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Review Filter</title>
+    <link rel="stylesheet"  type="text/css" href="static/style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet">
+
+
+
+  </head>
+  <body>
+
+    <form  action="{{ url_for('predict')}}"method="post" >
+      <div class="title">
+        <h1>is it phishing?</h1>
+        <br>
+        <h3>This service helps you detect phishing websites.</h3>
+      </div>
+      <br>
+      <br>
+      <div class="itemx">
+        <label><h4>Check URL</h4></label>
+        <textarea name="usr" rows="3" cols="100" style="background-color:#efefef"></textarea>
+
+      </div>
+
+        <br>
+
+
+        <br>
+      <div class="itemx">
+        <div>
+          <p> <h3>Verification : {{ val }}</h3></p>
+             <br>
+        </div>
+      </div>
+         <br>
+         <br>
+      <div class="action">
+
+        <input type="submit" value = "PREDICT">
+        <input type="reset" value = "RESET">
+      </div>
+
+        </div>
+    </form>
+
+  </body>
+</html>
