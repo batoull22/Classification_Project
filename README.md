@@ -29,7 +29,7 @@ Then we merged these Two Datasets to have data_df Dataframe.
 • FLASK API
 
 ## Test URL
-### - Run app.py 
+- Run app.py 
 
 #### using below command to start Flask API:
 ```python app.py```
