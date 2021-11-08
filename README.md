@@ -14,9 +14,14 @@ Then we merged these Two Datasets to have data_df Dataframe.
 
 ## Tools:
 • Pandas and Numpy (Exploring the data)
+
 • Matplotlib and Seaborn (Visualizing the data)
+
 • Sci-kit Learn (linear Regression model and other models)
+
 • Xgboost
+
 • Whois and tldextract
+
 • FLASK API
 
