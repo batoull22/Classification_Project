@@ -33,13 +33,14 @@ Then we merged these Two Datasets to have data_df Dataframe.
 ```python app.py```
 By default, flask will run on port 5000.
 - Navigate to URL http://127.0.0.1:5000/
+
 You should be able to view the homepage.
 
 Enter URL  and hit Predict.
 If everything goes well, you should be able to see the predicted Verification on the HTML page! check the output here: http://127.0.0.1:5000/predict .
 
 <p align="center">
-  <img src="" width="350" title="hover text">
+  <img src="user_ui.png" width="350" title="UI">
 </p>
 
 
